@@ -1,0 +1,5 @@
+eyaml:
+  build: .
+  volumes:
+   - ~/projects/vmfarms/puppet-manifests/hiera_key/public_key.pkcs7.pem:/root/public_key.pkcs7.pem
+   - ./fileToEncrypt:/root/fileToEncrypt
